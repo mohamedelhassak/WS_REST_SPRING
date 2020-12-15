@@ -10,10 +10,10 @@ definie par :
 #### EtudiantsRepo
 * implementation de  JPA
 
-#### EtudiantService
+#### EtudiantService [@Path("/etudiants")]
 contient 4 methodes :
-*  getEtudiants : List
-*  ajouterEtudiant : Etudiant
-*  getNote : double
-*  getValidants (note > 12) : List
-*  getMajorants (note > 16) : List
+*  getEtudiants :   List @Path("/")
+*  ajouterEtudiant : Etudiant @Path("/ajouter")
+*  getNote : double @Path("/getNote/{name}")
+*  getValidants (note > 12) : List @Path("/getValidants")
+*  getMajorants (note > 16) : List @Path("/getMajorants")
