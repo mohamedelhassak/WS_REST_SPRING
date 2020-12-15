@@ -1,4 +1,4 @@
-package com.ensaf.exercices.EX1;
+package com.ensaf.EXERCICES.EX1;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

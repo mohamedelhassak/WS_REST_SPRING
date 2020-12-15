@@ -1,6 +1,6 @@
 package com.ensaf;
-import com.ensaf.exercices.EX1.Etudiant;
-import com.ensaf.exercices.EX1.EtudiantsRepo;
+import com.ensaf.EXERCICES.EX1.Etudiant;
+import com.ensaf.EXERCICES.EX1.EtudiantsRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;

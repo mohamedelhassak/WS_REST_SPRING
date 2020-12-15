@@ -1,4 +1,4 @@
-package com.ensaf.exercices.EX2;
+package com.ensaf.EXERCICES.EX2;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
